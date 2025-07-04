@@ -1,0 +1,9 @@
+rootProject.name = 'LogisticaPerfulandia'
+
+include 'ms-pedido-db'
+include 'ms-pedido-bs'
+include 'ms-envio-db'
+include 'ms-envio-bs'
+include 'ms-proveedores-db'
+include 'ms-proveedores-bs'
+include 'bff-proveedores'
