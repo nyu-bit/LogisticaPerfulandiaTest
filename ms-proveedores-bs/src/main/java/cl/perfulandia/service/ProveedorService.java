@@ -102,8 +102,8 @@ public class ProveedorService {
             throw new IllegalStateException("El proveedor no está activo");
         }
         
-        // Aquí se implementaría la lógica para contactar al proveedor
-        // Por ejemplo: enviar email, crear orden de compra, etc.
+        // lógica para contactar al proveedor
+        // Por ejemplo su: enviar email, crear orden de compra, etc.
         System.out.println(String.format(
                 "Contactando proveedor %s (ID: %d) para reposición de producto %d, cantidad: %d",
                 proveedor.getNombre(), proveedorId, productoId, cantidad
